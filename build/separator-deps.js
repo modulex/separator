@@ -1,0 +1,1 @@
+modulex.config("requires",{"separator":["component/control"]});

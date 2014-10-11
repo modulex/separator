@@ -1,0 +1,22 @@
+{
+    "name": "modulex-separator",
+    "author": "yiminghe <yiminghe@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/kissyteam/separator.git"
+    },
+    "ignore": [
+        "**/*",
+        "!build/**/*",
+        "!lib/**/*",
+        "!meta/**/*",
+        "!index.js"
+    ],
+    "dependencies": {
+        "modulex": "modulex#master",
+        "modulex-feature": "modulex-feature#master",
+        "modulex-ua": "modulex-ua#master",
+        "modulex-component": "modulex-component#master"
+    }
+}

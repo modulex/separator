@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<body>
+<p>this is separator@1.0.0 demo</p>
+<script src="/mx_modules/modulex-debug.js"></script>
+<script src="/mx_modules/ua-debug.js"></script>
+<script src="/mx_modules/feature-debug.js"></script>
+<script src="/mx_modules/meta.js"></script>
+<script>
+    var isBuild = location.href.indexOf('build') !== -1;
+    require.config({
+        base: '/mx_modules',
+        packages: {
+            'separator': {
+                filter: isBuild ? 'debug' : '',
+                base: isBuild ? '/build/separator' : '/lib/separator'
+            }
+        }
+    });
+    require('separator',function(separator){
+        //  TODO with separator
+    });
+</script>
+</body>
+</html>
