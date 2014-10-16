@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-separator@1.0.1
+MIT Licensed
+build time: Thu, 16 Oct 2014 07:34:36 GMT
+*/
 modulex.add("separator", ["component/control"], function(require, exports, module) {
 var componentControl = require("component/control");
 /*
@@ -22,6 +27,7 @@ separator = function (exports) {
       renderData.elAttrs.role = 'separator';
     }
   }, {
+    version: '1.0.1',
     ATTRS: {
       handleGestureEvents: { value: false },
       focusable: { value: false },
