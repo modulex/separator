@@ -14,7 +14,7 @@
         "!index.js"
     ],
     "dependencies": {
-        "modulex": "modulex#1.x",
+        "modulex": "*",
         "modulex-feature": "modulex-feature#1.x",
         "modulex-ua": "modulex-ua#1.x",
         "modulex-component": "modulex-component#1.x"
